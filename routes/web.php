@@ -20,6 +20,9 @@ Route::resource('/form_validation','FormValidation');
 
 Route::resource('/testing','TestingController');
 
+Route::get('/ttt', 'TTTController');
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
