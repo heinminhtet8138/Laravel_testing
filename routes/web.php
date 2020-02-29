@@ -23,6 +23,9 @@ Route::resource('/hello','TestingController');
 Route::resource('/Ha','TestingController');
 Route::resource('/Wtf','TestingController');
 
+Route::get('/ttt', 'TTTController');
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
