@@ -19,6 +19,9 @@ Route::get('/', function () {
 Route::resource('/form_validation','FormValidation');
 
 Route::resource('/testing','TestingController');
+Route::resource('/hello','TestingController');
+Route::resource('/Ha','TestingController');
+Route::resource('/Wtf','TestingController');
 
 Auth::routes();
 
