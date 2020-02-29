@@ -28,6 +28,8 @@ Route::resource('/Los','TestingController');
 
 Route::get('/ttt', 'TTTController');
 
+Route::get('NgarLoeMaThar','NgarLoeMaThar');
+
 
 Auth::routes();
 
