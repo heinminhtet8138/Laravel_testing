@@ -25,6 +25,8 @@ Route::resource('/Wtf','TestingController');
 
 Route::get('/ttt', 'TTTController');
 
+Route::get('NgarLoeMaThar','NgarLoeMaThar');
+
 
 Auth::routes();
 
