@@ -22,6 +22,9 @@ Route::resource('/testing','TestingController');
 Route::resource('/hello','TestingController');
 Route::resource('/Ha','TestingController');
 Route::resource('/Wtf','TestingController');
+Route::resource('/lee','TestingController');
+Route::resource('/pae','TestingController');
+Route::resource('/Los','TestingController');
 
 Route::get('/ttt', 'TTTController');
 
